@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Mulish", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #121214;
+  font-size: 1.6rem;
+  line-height: 1.5;
+
+  padding: 7.4rem 10rem 11.4rem;
+
+  display: grid;
+  justify-content: center;
+}
+
+header {
+  margin-bottom: 6.3rem;
+}
+
+header h1 {
+  font-size: 5.8rem;
+  font-weight: 900;
+  color: #02799d;
+}
+
+header p {
+  color: #e1e1e6;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+
+  gap: 4.4rem 6rem;
+}
+
+.card {
+  background-color: #202024;
+
+  border: 2px solid #323238;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card article {
+  padding: 3.2rem;
+}
+
+.card h2 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #e1e1e6;
+}
+
+.card p {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #c4c4cc;
+}
